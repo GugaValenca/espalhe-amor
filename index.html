@@ -11,30 +11,30 @@
     <body>
         <header class="cabecalho">
             
-            <nav class="container navegacao" id="nav-bar">
+            <nav class="container navegacao">
                 
                 <div class="logo">Projeto Espalhe Amor</div>
 
-                <button class="botao-menu">☰</button>
+                <button class="botao-menu"> ☰ </button>
 
                 <ul class="menu">
                     <li>
-                        <a href="index.html">Início</a>
+                        <a href="#">Início</a>
                     </li>
                     <li>
-                        <a href="eventos.html">Eventos</a>
+                        <a href="#">Eventos</a>
                     </li>
                     <li>
-                        <a href="sobre.html">Sobre</a>
+                        <a href="#">Sobre</a>
                     </li>
                     <li>
-                        <a href="contato.html">Contato</a>
+                        <a href="#">Contato</a>
                     </li>
                 </ul>
         </nav>
         </header>
 
-        <main id="content">
+        
             <section class="destaque" id="destaque">
                 <div class="container">
                 <div class="texto">
@@ -92,19 +92,31 @@
                 <h2>Junte-se a nós e faça a diferença!</h2>
                 <p>
                     Sua contribuição é fundamental para continuarmos nossa missão de
-                    espalhar amor e esperança. Seja um voluntário ou faça uma doação.
+                    espalhar amor e esperança. 
                 </p>
-                <a href="contato.html" class="btn">Quero ajudar</a> 
+                <br>
+
+                <h3>Seja um voluntário ou faça uma doação.</h3>
+                <a href="#" class="btn">Quero ajudar</a> 
 
             </section>
-        </main>
+     
 
         <footer>
 
             &copy; 2025 Projeto Espalhe Amor. Todos os direitos reservados.
         </footer>
 
-
-
     </body>
+<script>
+    let botao = document.querySelector('.botao-menu');
+    let menu = document.querySelector('.menu');
+
+    botao.addEventListener('click', () => {
+        menu.classList.toggle('ativo');
+    });
+
+</script>
+    
+
 </html>
