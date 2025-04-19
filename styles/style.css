@@ -19,6 +19,12 @@ a {
     text-decoration: none;
 }
 
+.texto-home { text-indent: 80px; 
+
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
 .container {
     width: 90%;
     max-width: 1100px;
