@@ -37,13 +37,14 @@ a {
 }
 
 .cabecalho {
-    background-color: white;
+    background-color: #f7ce06;
     box-shadow: 0 2 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     z-index: 2;
     padding: 15px 0;
-    width: 100%;    
+    width: 100%; 
+    border: 1px solid #d1c6c6;  
 }
 
 .navegacao {
@@ -53,9 +54,9 @@ a {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
-    color: #f7ce06;
+    color: #e9f7ef;
 }
 
 .menu {
@@ -83,6 +84,8 @@ section {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin-top: 20px;
+    align-items: center;
 }
 
 .texto h1 {
@@ -141,7 +144,7 @@ footer {
 }
 
 .como-ajudar {
-    background-color: #e9f7ef;
+    background-color: #f7ce06;
     padding: 60px 0;
 }
 
@@ -149,7 +152,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 100px;
     max-width: 1100px;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -173,7 +176,7 @@ footer {
 .texto-ajuda h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #f7ce06;
+    color: #e9f7ef;
 }
 
 .texto-ajuda p {
@@ -183,7 +186,7 @@ footer {
 }
 
 .btn-ajuda {
-    background-color: #f7ce06;
+    background-color: #e9f7ef;
     color: #333;
     padding: 12px 25px;
     border-radius: 8px;
