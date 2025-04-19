@@ -98,16 +98,18 @@ h2 {
 
 .recursos .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .card {   
     padding: 20px;
     text-align: center;
+    background-color: #e9f7ef;
+    
 }
 
 .icone {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 15px;
 }
 
@@ -137,6 +139,64 @@ footer {
     font-size: 2rem;
     cursor: pointer;
 }
+
+.como-ajudar {
+    background-color: #e9f7ef;
+    padding: 60px 0;
+}
+
+.container-ajuda-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.imagem-ajuda {
+    flex: 1 1 45%;
+}
+
+.imagem-ajuda img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.texto-ajuda {
+    flex: 1 1 45%;
+    color: #333;
+}
+
+.texto-ajuda h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f7ce06;
+}
+
+.texto-ajuda p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn-ajuda {
+    background-color: #f7ce06;
+    color: #333;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    display: inline-block;
+}
+
+.btn-ajuda:hover {
+    background-color: #333;
+    color: #f7ce06;
+}
+
 
 @media screen and(max-width: 768px) {
     .destaque .container {
